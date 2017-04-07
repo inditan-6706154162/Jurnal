@@ -8,7 +8,7 @@ public class Fibbonacci {
         
         int hitung = input.nextInt();
         
-        for (int i=1; i <= hitung; i++)
+        for (int i=hitung; i >=1; i--)
         {
             System.out.print(methodFibonacci(i) + " ");
         }

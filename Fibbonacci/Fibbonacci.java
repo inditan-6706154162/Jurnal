@@ -7,11 +7,13 @@ public class Fibbonacci {
         Scanner input = new Scanner(System.in);
         
         int hitung = input.nextInt();
-        
+        int hasil=0;
         for (int i=1; i <= hitung; i++)
         {
-            System.out.print(methodFibonacci(i) + " ");
+			hasil=methodFibonacci(i)+hasil;
+            
         }
+		System.out.print(hasil);
     }
     
     public static int methodFibonacci(int fibonacciInput)
@@ -29,4 +31,4 @@ public class Fibbonacci {
         }
             
     }
-    }
+}
